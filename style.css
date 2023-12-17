@@ -1,0 +1,65 @@
+.gradient-background {
+  background: linear-gradient(300deg, #33c2f2, #ea334e, #ee9a8f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.text {
+ color: #fff;
+}
+body {
+  font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #33c2f200;
+}
+.nav {
+  --bs-nav-link-color: white;
+}
+.red {
+  color:#ef425cde;
+}
+.black {
+  color:black;
+}
+.lead {
+  font-size:1rem;
+  font-weight: 200;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.text-body-emphasis1 {
+  --bs-text-opacity: 1;
+  color: #ef425cde!important;
+}
+.btn-outline-primary {
+  --bs-btn-color: #ef425cde;
+    --bs-btn-border-color: #b0b1b2;
+}
+.btn-primary {
+  --bs-btn-color: #ef425cde;
+  --bs-btn-border-color: #b0b1b2;
+  --bs-btn-bg: #fff;
+}
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
